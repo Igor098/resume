@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+    url("../fonts/Calibri-Regular.woff") format("woff"),
+    url("../fonts/Calibri-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    src: local(""),
+    url("../fonts/Calibri-Bold.woff") format("woff"),
+    url("../fonts/Calibri-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+    url("../fonts/Montserrat-Regular.woff") format("woff"),
+    url("../fonts/Montserrat-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local(""),
+    url("../fonts/Montserrat-Medium.woff") format("woff"),
+    url("../fonts/Montserrat-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local(""),
+    url("../fonts/Montserrat-SemiBold.woff") format("woff"),
+    url("../fonts/Montserrat-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local(""),
+    url("../fonts/Montserrat-Bold.woff") format("woff"),
+    url("../fonts/Montserrat-Bold.woff2") format("woff2");
+}

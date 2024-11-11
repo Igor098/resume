@@ -126,6 +126,10 @@
     line-height: 18px;
 }
 
+.other-skills {
+    margin-bottom: 20px;
+}
+
 @keyframes progress-1 {
     from {
         stroke-dashoffset: 320;

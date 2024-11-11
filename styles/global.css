@@ -25,7 +25,7 @@ img {
 body {
     min-width: 320px;
     word-break: normal;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 :root {
@@ -57,11 +57,6 @@ body {
     cursor: pointer;
 }
 
-.main {
-    background-image: var(--background-color);
-    padding: 12px 16px;
-}
-
 .flex_gap_12px {
     display: flex;
     gap: 12px;
@@ -70,6 +65,8 @@ body {
 .container {
     max-width: 684px;
     margin: 0 auto;
+    background-image: var(--background-color);
+    padding: 12px 16px;
 }
 
 .about__title {

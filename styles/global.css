@@ -138,3 +138,9 @@ body {
     font-weight: 400;
     line-height: 18px;
 }
+
+.block-animation {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: transform 0.5s, opacity 0.5s;
+}

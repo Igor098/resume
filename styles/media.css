@@ -3,7 +3,6 @@
     .main {
         background-image: var(--background-color);
     }
-
     .container {
         background: none;
         max-width: 485px;

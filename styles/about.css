@@ -4,7 +4,7 @@
 
 .about-wrapper {
     width: 320px;
-    min-height: 886px;
+    min-height: 900px;
     padding: 12px 24px 12px 12px;
     background-color: var(--about-background-color);
     border-radius: 10px;

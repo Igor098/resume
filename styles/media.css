@@ -1,16 +1,24 @@
 @media (max-width: 684px) {
+
+    .main {
+        background-image: var(--background-color);
+    }
+
     .container {
-        max-width: 425px;
+        background: none;
+        max-width: 485px;
         display: grid;
         row-gap: 20px;
     }
 
     .about-wrapper {
         width: 100%;
+        min-height: auto;
     }
 
     .skills-wrapper {
         width: 100%;
+        min-height: auto;
     }
 }
 

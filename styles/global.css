@@ -76,7 +76,7 @@ body {
 
 .container:after {
     content: "";
-    display: table;
+    display: block;
     clear: both;
 }
 

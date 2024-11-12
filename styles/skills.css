@@ -1,10 +1,14 @@
 .skills {
-    width: 100%;
+    float: right;
+    /*display: inline-block;*/
+    /*vertical-align: top;*/
+    /*min-height: 100vh;*/
 }
 
 .skills-wrapper {
-    width: 100%;
-    max-width: 320px;
+    width: 320px;
+    /*max-width: 320px;*/
+    min-height: 886px;
     background: var(--color-white);
     padding: 12px 16px;
     border-radius: 10px;
@@ -128,6 +132,79 @@
 
 .other-skills {
     margin-bottom: 20px;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience-wrapper {
+    display: grid;
+    row-gap: 12px;
+}
+
+.experience__item {
+    display: grid;
+    font-family: "Calibri", sans-serif;
+}
+
+.experience__organization {
+    color: var(--color-antrahcite-gray);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.experience__post {
+    color: var(--color-antrahcite-gray);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.experience__worked {
+    color: var(--color-gray-slate);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.experience__description {
+    color: var(--color-black);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.education-wrapper {
+    display: grid;
+    row-gap: 12px;
+}
+
+.education__item{
+    display: grid;
+    font-family: "Calibri", sans-serif;
+}
+
+.education__organization {
+    color: var(--color-antrahcite-gray);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.education__direction {
+    color: var(--color-antrahcite-gray);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.education__period {
+    color: var(--color-gray-slate);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
 }
 
 @keyframes progress-1 {

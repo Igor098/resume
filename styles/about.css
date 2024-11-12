@@ -1,9 +1,15 @@
 .about {
-    width: 100%;
+    float: left;
+    /*display: inline-block;*/
+    /*vertical-align: top;*/
+    /*min-height: 100vh;*/
+    /*height: auto;*/
 }
 
 .about-wrapper {
-    max-width: 320px;
+    /*max-width: 320px;*/
+    width: 320px;
+    min-height: 886px;
     padding: 12px 24px 12px 12px;
     background-color: var(--about-background-color);
     border-radius: 10px;

@@ -30,8 +30,11 @@ body {
 
 :root {
     --background-color: linear-gradient(rgba(3, 56, 244, 0.71), rgba(224, 37, 206, 0.79) 94%);
+    --color-antrahcite-gray: #343434;
+    --color-black: rgba(0, 0, 0, 0.8);
     --color-white: #FFF;
     --color-gray: #CECACA;
+    --color-gray-slate:  #73808D;
     --color-dark-gray: #545454;
     --color-platina: #E5E5E5;
     --color-html: hsl(15, 100%, 60%);
@@ -57,16 +60,24 @@ body {
     cursor: pointer;
 }
 
-.flex_gap_12px {
+.flex {
     display: flex;
-    gap: 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .container {
+    width: 100%;
     max-width: 684px;
     margin: 0 auto;
     background-image: var(--background-color);
     padding: 12px 16px;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .about__title {
@@ -108,7 +119,7 @@ body {
 .skills__title_decor {
     width: 180px;
     padding: 4px 16px;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     background-color: var(--color-dark-gray);
     border-radius: 10px;
 }
